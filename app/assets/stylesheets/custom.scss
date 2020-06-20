@@ -103,7 +103,14 @@ h1, h2 {
 }
 
 .topic-new-wrapper {
-  padding-top: 120px;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('bg-top.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
 }
 
 .topic-index-wrapper {
