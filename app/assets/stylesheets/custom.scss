@@ -6,6 +6,10 @@ h1, h2 {
   color: #fff;
 }
 
+.text-center {
+  color: #fff;
+}
+
 .btn-white {
   color: #fff;
   border: 1px solid #fff;
@@ -102,19 +106,6 @@ h1, h2 {
   }
 }
 
-.btn-white {
-  color: #565656;
-  border: 1px solid #fff;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-size: 20px;
-  background-color: rgba(0,0,0,0.0);
-  
-  &:hover {
-    color: #565656;
-  }
-}
-
 .topic-new-wrapper {
   width: 100vw;
   height: 100vh;
@@ -123,7 +114,10 @@ h1, h2 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #464646;
+  background-color: #fff;
+  .form-group {
+    color: #fff;
+  }
 }
 
 .topic-index-wrapper {
